@@ -23,7 +23,7 @@ git push origin main
 ```
 
 ## Projeyi run etmek:
-1. Terminale
+### Yöntem1: VSCode'daki terminalden
    ```
    python main.py
    ```
@@ -32,6 +32,6 @@ git push origin main
    python3 main.py
    ```
 yazarak çalıştırabilirsiniz.
-
-2. `CTRL + SHIFT + P`'ye tıklayarak ve `Python Select Interpreter` menüsünden sanal ortamınız seçebilirsiniz (İsmi venv olacak)
-3. 
+### Yöntem2: VSCode'daki sağ üstteki çalıştır butonundan
+ `CTRL + SHIFT + P`'ye tıklayarak ve `Python Select Interpreter` menüsünden sanal ortamınız seçebilirsiniz (İsmi venv olacak)
+   
