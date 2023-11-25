@@ -3,9 +3,9 @@
 
 ## Projeyi çalıştırmak:
 1. Sanal ortamı aktifleştmek için aşağıdaki komutu terminale yazınız:
-`source venv/bin/activate`
+```source venv/bin/activate```
 2. Ortamdaki kütüphaneleri indirmek için aşağıdaki komutu terminale yazınız:
-` pip install -r requirements.txt`
+``` pip install -r requirements.txt```
 veya
 `pip3 install -r requirements.txt`
 
