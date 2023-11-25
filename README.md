@@ -31,7 +31,6 @@ NOT: `bilgisayarı kapatıp açtığınz zaman da bu komutu her zaman girmeniz g
 ```
 source venv/bin/activate
 pip install -r requirements.txt
-
 ```
 
 ## Projeyi çalıştırmak
