@@ -1,37 +1,52 @@
 # m8l1-portfolio-websitesi
 
 
-## Projeyi çalıştırmak:
-1. Sanal ortamı aktifleştmek için aşağıdaki komutu terminale yazınız:
+## Projenizi kaydetmek istediğiniz klasöre gitmek:
+1-Terminalde projenizi kaydetmek istediğiniz yere gidiniz
+İşinize yarayan komutlar
+`cd <klasör_ismi>` sizi klasörün içine alacak
+`ls` Bulunduğunuz klasörün içindeki dosyları gösterecek 
+`pwd` Bulunduğunuz klasörün adresi
+`mkdir <klasör_ismi>` Yeni bir klasör oluşturmak
+
+Önreğin, ben masaüstünde kaydetmek için bu komutları kullandım:
+```
+cd Desktop
+mkdir Bitirme_Projesi
+cd Bitirme_Projesi
+```
+
+## Github deposunu localinize indirmek
+
+Projeyi kaydet istediğiniz klasörün içindeyseniz, aşağıdaki komutu girerek bu github deposunu bilgisayarınıza indirebilirsiniz:
+```
+git clone https://github.com/Kodland-Codes/m8l1-portfolio-websitesi.git
+```
+
+## Sanal ortamı aktifleştirmek ve kütüphaneleri indirmek
+
+Projenizi VSCode'da açınız ve aşağıdaki komutu giriniz
+NOT: `bilgisayarı kapatıp açtığınz zaman da bu komutu her zaman girmeniz gerekiyor`
+
 ```
 source venv/bin/activate
-```
-3. Ortamdaki kütüphaneleri indirmek için aşağıdaki komutu terminale yazınız:
-```
 pip install -r requirements.txt
-```
-veya
-```
-pip3 install -r requirements.txt
+
 ```
 
-## Yaptığınız değişiklikleri GitHub'a yüklemek için:
+## Projeyi çalıştırmak
+### Yöntem 1: VSCode terminalinden
+NOT: VScode terminalinde projenin klasöründe olduğunuzdan ve doğru sanal ortamı kullandığınızdan emin olunuz.
+Bu konmutu VSCode terminalinde yazarak projeyi çalıştırabilirsiniz:
 ```
-git add .
-git commit -m "Yorumunuz"
-git push origin main
+python main.py
 ```
 
-## Projeyi run etmek:
-### Yöntem1: VSCode'daki terminalden
-   ```
-   python main.py
-   ```
-   veya
-   ```
-   python3 main.py
-   ```
-yazarak çalıştırabilirsiniz.
-### Yöntem2: VSCode'daki sağ üstteki çalıştır butonundan
- `CTRL + SHIFT + P`'ye tıklayarak ve `Python Select Interpreter` menüsünden sanal ortamınız seçebilirsiniz (İsmi venv olacak)
-   
+### Yöntem 2: VScode çalıştır butonundan
+Eğer bu yöntemi kullanmak istiyorsanız VSCode'da kullandığınız İnterpreter'ın VENV (Sanal ortamımızın ismi) olması gerekiyor
+1- `CTRL + SHIFT + P`'ye tıklayınız
+2- Python Select Interpreter'e tıklayınız
+3- VENV adındaki sanal ortamı seçiniz
+
+
+
