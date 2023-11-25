@@ -28,10 +28,18 @@ git clone https://github.com/Kodland-Codes/m8l1-portfolio-websitesi.git
 Projenizi VSCode'da açınız ve aşağıdaki komutu giriniz
 NOT: `bilgisayarı kapatıp açtığınz zaman da bu komutu her zaman girmeniz gerekiyor`
 
+### Mac kullananlar için: 
 ```
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Windows kullananlar için: 
+```
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 
 ## Projeyi çalıştırmak
 ### Yöntem 1: VSCode terminalinden
