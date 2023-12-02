@@ -1,5 +1,14 @@
 # m8l1-portfolio-websitesi
 
+## GitBash İndirmek
+1- Bu Github deposunu local'e yani bilgisayarınıza indirebilmek için Git Bash programına ihtiyahıcınız var.
+Bu linke tıklayarak indirebilirsiniz:
+#### Windows kullananlar için:
+https://git-scm.com/download/win
+#### MacOS kullananlar için:
+https://git-scm.com/download/mac
+#### Linux/Unix kullananlar için:
+[https://git-scm.com/download/mac](https://git-scm.com/download/linux)
 
 ## Projenizi kaydetmek istediğiniz klasöre gitmek:
 1-Terminalde projenizi kaydetmek istediğiniz yere gidiniz
