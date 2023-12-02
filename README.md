@@ -45,6 +45,7 @@ pip install -r requirements.txt
 
 ### Windows kullananlar için: 
 ```
+python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
