@@ -5,12 +5,21 @@ from datetime import datetime
 
 
 app = Flask(__name__)
+year = 500
 
 # İçerik sayfasını çalıştırma
 @app.route('/')
 def index():
-    year = (datetime.now().year) - 1998 #nice
-    return render_template('index.html', year = year)
+    return render_template('index.html')
+
+
+@app.route('/about')
+def about():
+    return render_template('about.html', year=year)
+
+@app.route('/caldim')
+def caldim():
+    return render_template('caldim.html')
 
 
 # Dinamik beceriler
@@ -18,6 +27,8 @@ def index():
 def process_form():
     button_python = request.form.get('button_python')
     return render_template('index.html', button_python=button_python)
+
+
 
 
 if __name__ == "__main__":
