@@ -8,18 +8,15 @@ app = Flask(__name__)
 year = 500
 
 # İçerik sayfasını çalıştırma
-@app.route('/')
+@app.route('/ev')
 def index():
     return render_template('index.html')
 
 
-@app.route('/about')
+@app.route('/about_me')
 def about():
-    return render_template('about.html', year=year)
+    return render_template('about.html')
 
-@app.route('/caldim')
-def caldim():
-    return render_template('caldim.html')
 
 
 # Dinamik beceriler
